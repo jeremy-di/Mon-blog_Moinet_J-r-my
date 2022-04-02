@@ -1,0 +1,200 @@
+/* ---------- Police écriture ---------- */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+/* -------- Elements principaux -------- */
+
+body {
+    background: url(./images//font_resize.png) no-repeat;
+    background-color: #000;
+    margin: auto;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* --------------- Header -------------- */
+
+.image_logo {
+    padding: 1em;
+}
+
+.menu ul {
+    text-align: center;
+    background-color: #9d9d9d;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    opacity: 0.8;
+    margin-top: 7em;
+}
+
+.menu li {
+    display: inline-block;
+    list-style-type: none;
+    margin-left: 1em;
+    margin-right: 1em;
+    font-size: 1.2em;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.menu li a:hover {
+    color: #a50000
+}
+
+/* -------------- Contenu -------------- */
+
+#contenu_index {
+    background: url(./images/x304.jpg);
+    padding: 1em;
+}
+
+#contenu_index h1 {
+    font-size: 3em;
+    color: #fff;
+    margin-bottom: 2em;
+}
+
+#contenu_index p {
+    font-size: 2em;
+    color: #fff;
+}
+
+.text_home {
+    background: #9d9d9d;
+    width:50%;
+    text-align: center;
+    opacity: 0.6;
+}
+
+/* --------------- Footer -------------- */
+
+#pdp {
+    background-color: #000;
+}
+
+#pdp p {
+    color: #fff;
+    padding: 2em;
+    text-align: center;
+}
+
+
+/* --------------------------------------------------------------------------------------------- */
+
+/* Page Personnages */
+
+#contenu_character {
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#contenu_character h1 {
+    font-size: 3em;
+    color: #fff;
+    margin-bottom: 2em;
+}
+
+.character_list {
+    width: 25%;
+}
+
+.photo {
+    border: solid 1px #000;
+    padding: 1em;
+}
+
+.photo img {
+    width: 100%;
+}
+
+.name {
+    border: solid 1px #000;
+    padding: 1em;
+    text-align: center;
+    font-weight: 800;
+}
+
+.fonction {
+    border: solid 1px #000;
+    padding: 1em;
+    text-align: center;
+}
+
+.age {
+    border: solid 1px #000;
+    padding: 1em;
+    text-align: center;
+}
+
+.description {
+    border: solid 1px #000;
+    padding: 1em;
+    text-align: center;
+}
+
+.link {
+    border: solid 1px #000;
+    padding: 1em;
+    text-align: center;
+}
+
+.link a {
+    text-decoration: none;
+    color: #bd0000;
+    font-weight: 800;
+}
+
+/* Page Lucky Dice */
+
+#contenu_dice {
+    background-color: #fff;
+}
+
+.dice_body {
+    display: flex;
+    justify-content: center;
+}
+
+.horus img {
+    width: 20em;
+}
+
+.ra {
+    position: relative;
+}
+
+.ra img {
+    width: 30em;
+}
+
+.anubis img {
+    width: 20em;
+}
+
+.number_dice {
+    position: absolute;
+    top: 26em;
+    left: 54%;
+}
+
+.number_dice h1 {
+    font-size: 2em;
+}
+
+.reload {
+    border: solid 1px #000;
+    width: 15em;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 1em;
+}
+
+.reload a {
+    font-size: 2em;
+    text-decoration: none;
+    color: #bd0000;
+
+}
