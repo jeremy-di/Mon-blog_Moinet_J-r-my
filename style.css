@@ -175,13 +175,20 @@ body {
 }
 
 .number_dice {
-    position: absolute;
-    top: 26em;
-    left: 54%;
+background-color: green;
+height: 6em;
+padding: 4em;
+margin: 5em;
+border-radius: 1em;
+text-align: center;
+}
+
+a {
+    text-decoration: none;
 }
 
 .number_dice h1 {
-    font-size: 2em;
+    font-size: 6em;
 }
 
 .reload {
@@ -197,4 +204,89 @@ body {
     text-decoration: none;
     color: #bd0000;
 
+}
+
+/* Page single */
+
+#single_character {
+    background-color: #fff;
+    text-align: center;
+}
+
+.general {
+    display: flex;
+    justify-content: center;
+    column-gap: 1em;
+}
+
+.attributs {
+    display: flex;
+    justify-content: center;
+    column-gap: 5em;
+}
+
+.talents {
+    display: flex;
+    justify-content: center;
+    column-gap: 5em;
+}
+
+.title1 h1 {
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+.title2 h1 {
+    font-size: 2em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+.title3 h1 {
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+.picture img {
+    width: 10em;
+}
+
+.num_alpha {
+    background-color: #a50000;
+    color: #fff;
+    border-radius: 2em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+.num_beta {
+    background-color: green;
+    color: #fff;
+    border-radius: 2em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+.general h2 {
+    font-size: 1.5em;
+}
+
+.attributs h2 {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+
+.attributs h3 {
+    font-size: 1.1em;
+    margin-bottom: 1em;
+}
+
+.talents h2 {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+
+.talents h3 {
+    font-size: 1.1em;
+    margin-bottom: 1em;
 }
